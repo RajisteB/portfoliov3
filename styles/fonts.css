@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'GoBold';
+  src: url('../fonts/Gobold.ttf');
+}
+@font-face {
+  font-family: 'GoBold_Thin';
+  src: url('../fonts/Gobold_Thin.ttf');
+}
+@font-face {
+  font-family: 'GoBold_Hollow';
+  src: url('../fonts/Gobold_Hollow.ttf');
+}
+@font-face {
+  font-family: 'GoBold_Hollow_Bold';
+  src: url('../fonts/Gobold_Hollow_Bold.ttf');
+}
