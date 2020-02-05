@@ -6,19 +6,16 @@ Raj Bennin - Portfolio - Main Stylesheet
 
 /*================== Imports ======================*/
 
-
 @import url("./reset.css");
 @import url("./fonts.css");
-@import url('https://fonts.googleapis.com/css?family=Anton|Roboto+Mono&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Anton|Roboto+Mono&display=swap");
 
 /*============== Header - Body ===================*/
-
 
 /*============== Tag Styles ===================*/
 
 html {
-  background-color: #0000ff;
+  background-color: #000;
 }
 
 body {
@@ -33,7 +30,7 @@ a {
 
 .number {
   color: #ffffff;
-  font-family: 'GoBold_Hollow', sans-serif;
+  font-family: "GoBold_Hollow", sans-serif;
   font-size: 55px;
   line-height: 3.6rem;
   margin-top: 4px;
@@ -41,7 +38,7 @@ a {
 
 h1 {
   color: #ffffff;
-  font-family: 'GoBold', sans-serif;
+  font-family: "GoBold", sans-serif;
   font-size: 55px;
   text-transform: uppercase;
   line-height: 4rem;
@@ -51,7 +48,7 @@ h1 {
 
 h2 {
   color: #ffffff;
-  font-family: 'GoBold', sans-serif;
+  font-family: "GoBold", sans-serif;
   font-size: 45px;
   text-transform: uppercase;
   line-height: 3.6rem;
@@ -59,7 +56,7 @@ h2 {
 
 h3 {
   color: #ffffff;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: 14px;
   letter-spacing: 0.2rem;
   line-height: 1.3rem;
@@ -68,17 +65,16 @@ h3 {
 
 h4 {
   color: #ffffff;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   font-size: 20px;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
 }
 
-
 h5 {
   margin: 0px 10px;
   color: #ffffff;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: 10px;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
@@ -88,7 +84,7 @@ h5 {
 
 h6 {
   color: #ffffff;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: 10px;
   text-align: center;
   line-height: 2.4rem;
@@ -97,9 +93,7 @@ h6 {
   letter-spacing: 0.2rem;
 }
 
-
 /*------------ Tag Media Queries ----------*/
-
 
 /*=========== Container Styles ===============*/
 
@@ -139,10 +133,10 @@ h6 {
   align-items: flex-start;
   justify-content: flex-start;
   padding: 100px 0px;
-  border-bottom: 0.5px solid rgba(211, 211, 211,0.4);
+  border-bottom: 0.5px solid rgba(211, 211, 211, 0.4);
 }
 
-.container__section--content{
+.container__section--content {
   display: flex;
   flex-wrap: wrap;
 }
@@ -168,11 +162,11 @@ h6 {
   opacity: 0.6;
 }
 
-
 /*------------ Container Media Queries ----------*/
 
 @media (min-width: 300px) {
-  h1, .number {
+  h1,
+  .number {
     font-size: 35px;
   }
   .container__section--content-text {
@@ -180,7 +174,8 @@ h6 {
   }
 }
 @media (min-width: 400px) {
-  h1, .number {
+  h1,
+  .number {
     font-size: 45px;
   }
   .container__section--content-text {
@@ -191,7 +186,8 @@ h6 {
   .container__nav--links {
     display: block;
   }
-  h1, .number {
+  h1,
+  .number {
     font-size: 55px;
   }
 }
@@ -202,9 +198,6 @@ h6 {
   }
 }
 
-
-
-
 /*=========== Image/Pic Styles ===============*/
 
 img {
@@ -212,8 +205,6 @@ img {
   height: auto;
   margin: 50px 0px;
 }
-
-
 
 /*=========== Design Styles ===============*/
 
@@ -232,7 +223,7 @@ img {
 
 .view_more {
   color: #ffffff;
-  color: limegreen
+  color: limegreen;
 }
 
 .title__colored {
@@ -246,7 +237,7 @@ img {
 @keyframes gradientText {
   from {
     background-position: 250% 50%;
-    }
+  }
   to {
     background-position: 0% 50%;
   }
